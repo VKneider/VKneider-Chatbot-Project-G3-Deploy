@@ -37,8 +37,10 @@ for (; idx < keysLen ; idx++) {
 // BOT SETTINGS
 
 const bot = new Telebot({
+     //5388284212:AAHmEF3VaQ12caV7U1QhDwXD1jT19yEsqZw
+
     //token: '5573269354:AAG0Z4nfZAvq-g41dtHavn0yDsTg5DYTtcM',
-    token: "5443657191:AAF7flC9AsW3rTeYN63RmZ6xg3DuUizzC7w",
+    token: "5573269354:AAG0Z4nfZAvq-g41dtHavn0yDsTg5DYTtcM",
     usePlugins: ['namedButtons', 'askUser', 'commandButton'],
     pluginConfig: {
         namedButtons: {
@@ -50,7 +52,7 @@ const bot = new Telebot({
 //'https://62bfacf716537f6573afd4e0--luminous-crisp-2d239d.netlify.app'
 // Instancia Axios para la base de datos
 const API_DATABASE = axios.create({
-    baseURL: 'http://localhost:8888',   //NOTA: CAMBIAR DIRECCIÓN
+    baseURL: 'https://ubiquitous-truffle-b01037.netlify.app/',   //NOTA: CAMBIAR DIRECCIÓN
     timeout: 10000,
 });
 
@@ -73,7 +75,7 @@ const ENDPOINT_DATABASE = {
     userData:"/userData",
     createTicket:"/createTicket",
     sendMail:"/sendMail",
-    sendMessage:"sendMessage"
+    sendMessage:"/sendMessage"
 }
 
 
