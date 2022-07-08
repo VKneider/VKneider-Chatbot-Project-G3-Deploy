@@ -40,7 +40,7 @@ const bot = new Telebot({
      //5388284212:AAHmEF3VaQ12caV7U1QhDwXD1jT19yEsqZw
 
     //token: '5573269354:AAG0Z4nfZAvq-g41dtHavn0yDsTg5DYTtcM',
-    token: "5573269354:AAG0Z4nfZAvq-g41dtHavn0yDsTg5DYTtcM",
+    token: "5388284212:AAHmEF3VaQ12caV7U1QhDwXD1jT19yEsqZw",
     usePlugins: ['namedButtons', 'askUser', 'commandButton'],
     pluginConfig: {
         namedButtons: {
