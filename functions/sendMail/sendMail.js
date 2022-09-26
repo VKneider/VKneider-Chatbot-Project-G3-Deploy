@@ -59,7 +59,7 @@ exports.handler = async (event) => {
                   to: user[0].correo, 
                   subject: "FACTURA ENVIADA", 
                   html:
-<html>
+
 <head>
 
     <!-- CSS Reset : BEGIN -->
@@ -435,7 +435,7 @@ ul.social li{
     </div>
   </center>
 </body>
-</html> 
+
                 });
                 
                 await API_DATABASE.put(ENDPOINT_DATABASE.putCart + `?id=${id}`)
